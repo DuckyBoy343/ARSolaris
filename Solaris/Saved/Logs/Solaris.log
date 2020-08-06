@@ -718,3 +718,28 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.08.06-04.21.30:226][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
 [2020.08.06-04.21.30:662][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2020.08.06-04.21.30:870][  0]LogSlate: Took 0.000380 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.08.06-04.23.14:935][955]LogAssetRegistry: Asset discovery search completed in 128.9797 seconds
+[2020.08.06-04.23.14:953][955]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000007 seconds (updated 0 objects)
+[2020.08.06-04.27.23:111][ 48]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.06-04.27.23:112][ 48]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.06-04.53.43:532][734]LogTemp: Resetting audio stream to device id 
+[2020.08.06-04.53.44:034][734]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.06-04.53.44:034][734]LogAudioMixer: Display: 1: FrontRight
+[2020.08.06-04.53.44:677][735]LogTemp: Resetting audio stream to device id 
+[2020.08.06-04.53.44:810][735]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.06-04.53.44:810][735]LogAudioMixer: Display: 1: FrontRight
+[2020.08.06-05.29.31:134][565]LogTemp: Resetting audio stream to device id 
+[2020.08.06-05.29.31:312][565]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.06-05.29.31:312][565]LogAudioMixer: Display: 1: FrontRight
+[2020.08.06-05.29.33:413][566]LogTemp: Resetting audio stream to device id 
+[2020.08.06-05.29.35:253][566]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.06-05.29.35:253][566]LogAudioMixer: Display: 1: FrontRight
+[2020.08.06-05.29.38:243][567]LogTemp: Resetting audio stream to device id 
+[2020.08.06-05.29.38:287][567]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.06-05.29.38:287][567]LogAudioMixer: Display: 1: FrontRight
+[2020.08.06-05.54.13:905][214]LogTemp: Resetting audio stream to device id 
+[2020.08.06-05.54.15:699][214]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.06-05.54.15:699][214]LogAudioMixer: Display: 1: FrontRight
+[2020.08.06-05.54.15:845][215]LogTemp: Resetting audio stream to device id 
+[2020.08.06-05.54.15:893][215]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.06-05.54.15:893][215]LogAudioMixer: Display: 1: FrontRight
