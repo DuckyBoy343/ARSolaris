@@ -1,0 +1,957 @@
+﻿Log file open, 08/26/20 23:10:11
+LogInit: Display: Running engine for game: Solaris
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.394995
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin GoogleARCore
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin Takes
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU:        Intel(R) Core(TM) i5-3340M CPU @ 2.70GHz, GPU: Intel(R) HD Graphics 4000
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -EpicPortal -epicusername="Over lord 616" -epicuserid=441aa8ced98a4116be8f3b71020f5f3f -epiclocale=es-MX
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Config/Windows/Engine.ini]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.Mobile.VirtualTextures:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.AnisotropicBRDF:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.08.27-04.10.12:286][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2020.08.27-04.10.12:287][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2020.08.27-04.10.12:287][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2020.08.27-04.10.12:287][  0]LogConfig: Setting CVar [[r.UsePreExposure:0]]
+[2020.08.27-04.10.12:287][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:0]]
+[2020.08.27-04.10.12:287][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2020.08.27-04.10.12:287][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2020.08.27-04.10.12:287][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2020.08.27-04.10.12:287][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2020.08.27-04.10.12:287][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2020.08.27-04.10.12:287][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2020.08.27-04.10.12:287][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2020.08.27-04.10.12:287][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2020.08.27-04.10.12:287][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2020.08.27-04.10.12:287][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2020.08.27-04.10.12:288][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.VertexDeformationOutputsVelocity:0]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.MeshStreaming:0]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.SkinCache.DefaultBehavior:1]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2020.08.27-04.10.12:289][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Config/Windows/Engine.ini]
+[2020.08.27-04.10.12:290][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Config/Windows/Engine.ini]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Config/Windows/Engine.ini]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.08.27-04.10.12:290][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.08.27-04.10.12:291][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.08.27-04.10.12:291][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.08.27-04.10.12:291][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.08.27-04.10.12:291][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.08.27-04.10.12:291][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.08.27-04.10.12:291][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Config/Windows/Engine.ini]
+[2020.08.27-04.10.12:291][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Config/Windows/Engine.ini]
+[2020.08.27-04.10.12:294][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Config/Windows/Scalability.ini]
+[2020.08.27-04.10.12:294][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Config/Windows/Scalability.ini]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Config/Windows/Scalability.ini]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Config/Windows/Scalability.ini]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.08.27-04.10.12:295][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Config/Windows/Scalability.ini]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Config/Windows/Scalability.ini]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.08.27-04.10.12:296][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.08.27-04.10.12:297][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.08.27-04.10.12:297][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Config/Windows/Scalability.ini]
+[2020.08.27-04.10.12:297][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.08.27-04.10.12:297][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.08.27-04.10.12:297][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Config/Windows/Scalability.ini]
+[2020.08.27-04.10.12:297][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.08.27-04.10.12:297][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.08.27-04.10.12:297][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.08.27-04.10.12:297][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.08.27-04.10.12:297][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.08.27-04.10.12:297][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.08.27-04.10.12:297][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.08.27-04.10.12:297][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.27-04.10.12:297][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.08.27-04.10.12:297][  0]LogHAL: Display: Platform has ~ 8 GB [8488042496 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.08.27-04.10.12:297][  0]LogInit: Going up to parent DeviceProfile []
+[2020.08.27-04.10.12:297][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Config/Windows/Scalability.ini]
+[2020.08.27-04.10.12:297][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.27-04.10.12:297][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.08.27-04.10.12:297][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Config/Windows/Scalability.ini]
+[2020.08.27-04.10.12:297][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.08.27-04.10.12:297][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Config/Windows/Scalability.ini]
+[2020.08.27-04.10.12:297][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.27-04.10.12:297][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.27-04.10.12:297][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.08.27-04.10.12:297][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.08.27-04.10.12:297][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.27-04.10.12:297][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.08.27-04.10.12:297][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Config/Windows/Scalability.ini]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.08.27-04.10.12:298][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Config/Windows/Scalability.ini]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Config/Windows/Scalability.ini]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.08.27-04.10.12:299][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.08.27-04.10.12:300][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.08.27-04.10.12:300][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.08.27-04.10.12:300][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.08.27-04.10.12:300][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.08.27-04.10.12:300][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.08.27-04.10.12:300][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.08.27-04.10.12:300][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.08.27-04.10.12:300][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.08.27-04.10.12:300][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.08.27-04.10.12:300][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Config/Windows/Scalability.ini]
+[2020.08.27-04.10.12:300][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.08.27-04.10.12:300][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.08.27-04.10.12:300][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Config/Windows/Scalability.ini]
+[2020.08.27-04.10.12:300][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.08.27-04.10.12:300][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.08.27-04.10.12:300][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.08.27-04.10.12:300][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.08.27-04.10.12:300][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.08.27-04.10.12:300][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.08.27-04.10.12:300][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.08.27-04.10.12:300][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.08.27-04.10.12:301][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.08.27-04.10.12:301][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.08.27-04.10.12:301][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.08.27-04.10.12:301][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Config/Windows/Engine.ini]
+[2020.08.27-04.10.12:301][  0]LogInit: Computer: DESKTOP-08R0R75
+[2020.08.27-04.10.12:301][  0]LogInit: User: Dell
+[2020.08.27-04.10.12:301][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.08.27-04.10.12:301][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.08.27-04.10.12:301][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.08.27-04.10.12:301][  0]LogMemory: Platform Memory Stats for Windows
+[2020.08.27-04.10.12:301][  0]LogMemory: Process Physical Memory: 117.32 MB used, 117.32 MB peak
+[2020.08.27-04.10.12:301][  0]LogMemory: Process Virtual Memory: 95.50 MB used, 95.50 MB peak
+[2020.08.27-04.10.12:301][  0]LogMemory: Physical Memory: 6503.28 MB used,  1591.55 MB free, 8094.83 MB total
+[2020.08.27-04.10.12:301][  0]LogMemory: Virtual Memory: 5125.73 MB used,  134212600.00 MB free, 134217728.00 MB total
+[2020.08.27-04.10.12:310][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.08.27-04.10.12:369][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.08.27-04.10.12:371][  0]LogInit: Using OS detected language (es-MX).
+[2020.08.27-04.10.12:371][  0]LogInit: Using OS detected locale (es-MX).
+[2020.08.27-04.10.12:379][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/es-MX/Editor.locres' could not be opened for reading!
+[2020.08.27-04.10.12:379][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/es-MX/EditorTutorials.locres' could not be opened for reading!
+[2020.08.27-04.10.12:379][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/es-MX/Keywords.locres' could not be opened for reading!
+[2020.08.27-04.10.12:379][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/es-MX/Category.locres' could not be opened for reading!
+[2020.08.27-04.10.12:380][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/es-MX/ToolTips.locres' could not be opened for reading!
+[2020.08.27-04.10.12:380][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/es-MX/PropertyNames.locres' could not be opened for reading!
+[2020.08.27-04.10.12:380][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/es-MX/Engine.locres' could not be opened for reading!
+[2020.08.27-04.10.12:380][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/es-MX/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2020.08.27-04.10.12:381][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/es-MX/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2020.08.27-04.10.12:381][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/es-MX/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2020.08.27-04.10.12:445][  0]LogInit: Setting process to per monitor DPI aware
+[2020.08.27-04.10.12:493][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.08.27-04.10.12:493][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.08.27-04.10.12:823][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.27-04.10.12:823][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.08.27-04.10.12:823][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.08.27-04.10.12:823][  0]LogD3D11RHI: D3D11 adapters:
+[2020.08.27-04.10.12:887][  0]LogD3D11RHI:    0. 'NVIDIA NVS 5200M' (Feature Level 11_0)
+[2020.08.27-04.10.12:887][  0]LogD3D11RHI:       979/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.08.27-04.10.12:898][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2020.08.27-04.10.12:898][  0]LogD3D11RHI:       0/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.08.27-04.10.12:903][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.08.27-04.10.12:903][  0]LogD3D11RHI:       0/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.08.27-04.10.12:903][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.08.27-04.10.12:949][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.08.27-04.10.12:949][  0]LogD3D11RHI:     GPU DeviceId: 0xdfc (for the marketing name, search the web for "GPU Device Id")
+[2020.08.27-04.10.12:949][  0]LogWindows: EnumDisplayDevices:
+[2020.08.27-04.10.12:949][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2020.08.27-04.10.12:950][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2020.08.27-04.10.12:951][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2020.08.27-04.10.12:952][  0]LogWindows:    3. 'NVIDIA NVS 5200M' (P:0 D:0)
+[2020.08.27-04.10.12:952][  0]LogWindows:    4. 'NVIDIA NVS 5200M' (P:0 D:0)
+[2020.08.27-04.10.12:952][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:2 
+[2020.08.27-04.10.12:952][  0]LogD3D11RHI:     Adapter Name: NVIDIA NVS 5200M
+[2020.08.27-04.10.12:952][  0]LogD3D11RHI:   Driver Version: 387.95 (internal:23.21.13.8795, unified:387.95)
+[2020.08.27-04.10.12:952][  0]LogD3D11RHI:      Driver Date: 10-9-2017
+[2020.08.27-04.10.12:952][  0]LogRHI: Texture pool is 685 MB (70% of 979 MB)
+[2020.08.27-04.10.13:000][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2020.08.27-04.10.13:000][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.08.27-04.10.13:002][  0]LogD3D11RHI: [Aftermath] Failed to initialize. Result=bad0000b
+[2020.08.27-04.10.13:002][  0]LogD3D11RHI: Async texture creation enabled
+[2020.08.27-04.10.13:026][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.08.27-04.10.13:627][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.08.27-04.10.13:675][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.08.27-04.10.13:675][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.08.27-04.10.13:676][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.08.27-04.10.13:676][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.08.27-04.10.13:676][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.08.27-04.10.13:676][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.08.27-04.10.13:676][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.08.27-04.10.13:676][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.08.27-04.10.13:676][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.08.27-04.10.13:676][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.08.27-04.10.13:722][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.08.27-04.10.13:722][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.08.27-04.10.13:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.08.27-04.10.13:761][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.08.27-04.10.13:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.08.27-04.10.13:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.08.27-04.10.13:818][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.08.27-04.10.13:837][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.08.27-04.10.13:856][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.08.27-04.10.13:917][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.08.27-04.10.13:917][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.08.27-04.10.13:955][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.08.27-04.10.13:955][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.08.27-04.10.13:977][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.08.27-04.10.13:996][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.08.27-04.10.14:015][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.08.27-04.10.14:034][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.08.27-04.10.14:035][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.08.27-04.10.14:049][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.08.27-04.10.14:175][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Intermediate/Shaders/WorkingDirectory/19076/).
+[2020.08.27-04.10.14:175][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dell/AppData/Local/Temp/UnrealShaderWorkingDir/8983C15542D145ECC2D7428D79ABA0B8/'.
+[2020.08.27-04.10.14:176][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.08.27-04.10.14:176][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.08.27-04.10.14:176][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.08.27-04.10.15:654][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.08.27-04.10.15:734][  0]LogDerivedDataCache: Loaded boot cache 0.08s 76MB C:/Users/Dell/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.08.27-04.10.15:734][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dell/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.08.27-04.10.15:734][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.08.27-04.10.15:734][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.08.27-04.10.15:734][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.27-04.10.15:734][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.08.27-04.10.15:751][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.08.27-04.10.15:752][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.27-04.10.15:752][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.08.27-04.10.15:754][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.08.27-04.10.15:754][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.08.27-04.10.15:754][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.08.27-04.10.15:859][  0]LogSlate: Using FreeType 2.10.0
+[2020.08.27-04.10.15:859][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.08.27-04.10.15:913][  0]LogAssetRegistry: FAssetRegistry took 0.0048 seconds to start up
+[2020.08.27-04.10.16:525][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.27-04.10.16:804][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.08.27-04.10.16:804][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.08.27-04.10.16:804][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.08.27-04.10.16:804][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.08.27-04.10.16:804][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.08.27-04.10.16:832][  0]LogNetVersion: Solaris 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 4187293739)
+[2020.08.27-04.10.17:868][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001ADAF6D7100), frame # 0
+[2020.08.27-04.10.17:868][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001ADAF6BC680), frame # 0
+[2020.08.27-04.10.17:871][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001ADAF7F6200), frame # 0
+[2020.08.27-04.10.18:272][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 2 prioritized culture(s) in 0.260542 seconds
+[2020.08.27-04.10.18:282][  0]LogUObjectArray: 16157 objects as part of root set at end of initial load.
+[2020.08.27-04.10.18:282][  0]LogUObjectAllocator: 4052080 out of 0 bytes used by permanent object pool.
+[2020.08.27-04.10.18:282][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.08.27-04.10.19:320][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.08.27-04.10.19:330][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.08.27-04.10.19:645][  0]SourceControl: El control de código fuente está desactivado
+[2020.08.27-04.10.19:645][  0]SourceControl: El control de código fuente está desactivado
+[2020.08.27-04.10.19:652][  0]SourceControl: El control de código fuente está desactivado
+[2020.08.27-04.10.19:659][  0]SourceControl: El control de código fuente está desactivado
+[2020.08.27-04.10.19:672][  0]SourceControl: El control de código fuente está desactivado
+[2020.08.27-04.10.19:699][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.08.27-04.10.19:701][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.08.27-04.10.20:220][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.08.27-04.10.20:281][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.08.27-04.10.20:281][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.08.27-04.10.20:395][  0]LogOcInput: OculusInput pre-init called
+[2020.08.27-04.10.20:420][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.08.27-04.10.20:420][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.08.27-04.10.20:594][  0]LogEngine: Initializing Engine...
+[2020.08.27-04.10.20:598][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.27-04.10.20:599][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.08.27-04.10.20:601][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.08.27-04.10.20:864][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.08.27-04.10.20:882][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.08.27-04.10.20:882][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001ADB6021C00), frame # 0
+[2020.08.27-04.10.20:882][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001ADB603A480), frame # 0
+[2020.08.27-04.10.20:922][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.27-04.10.20:922][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.27-04.10.20:922][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.27-04.10.20:922][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.27-04.10.20:922][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.27-04.10.20:922][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.27-04.10.20:923][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.27-04.10.20:923][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.27-04.10.20:924][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.27-04.10.20:924][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.27-04.10.20:953][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.27-04.10.20:953][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.08.27-04.10.21:033][  0]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.08.27-04.10.21:043][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.27-04.10.21:050][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.27-04.10.21:050][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.27-04.10.21:052][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.27-04.10.21:053][  0]LogInit: FAudioDevice initialized.
+[2020.08.27-04.10.21:054][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.08.27-04.10.21:513][  0]LogDerivedDataCache: Saved boot cache 0.46s 76MB C:/Users/Dell/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.08.27-04.10.21:522][  0]LogInit: Texture streaming: Enabled
+[2020.08.27-04.10.21:558][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.08.27-04.10.21:558][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.08.27-04.10.21:561][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.08.27-04.10.21:658][  0]LogInit: Transaction tracking system initialized
+[2020.08.27-04.10.21:706][  0]BlueprintLog: New page: Cargar el editor
+[2020.08.27-04.10.21:846][  0]LocalizationService: Localization service is disabled
+[2020.08.27-04.10.22:053][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.08.27-04.10.22:054][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.08.27-04.10.22:401][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.08.27-04.10.22:401][  0]LogCook: Display: Mobile HDR setting 1
+[2020.08.27-04.10.22:669][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Content/' took 0.01s
+[2020.08.27-04.10.23:518][  0]SourceControl: El control de código fuente está desactivado
+[2020.08.27-04.10.23:518][  0]LogUnrealEdMisc: Loading editor; pre map load, took 15.030
+[2020.08.27-04.10.23:518][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Content/HandheldARBP/Maps/HandheldARBlankMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.27-04.10.23:593][  0]LightingResults: New page: Diseñar la iluminación
+[2020.08.27-04.10.23:595][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-04.10.23:595][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-04.10.23:595][  0]MapCheck: New page: Revisión del mapa
+[2020.08.27-04.10.23:595][  0]LightingResults: New page: Diseñar la iluminación
+[2020.08.27-04.10.23:607][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001ADB6021C00), frame # 0
+[2020.08.27-04.10.23:608][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001ADB603A480), frame # 0
+[2020.08.27-04.10.23:609][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2020.08.27-04.10.23:615][  0]LogAIModule: Creating AISystem for world HandheldARBlankMap
+[2020.08.27-04.10.23:615][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001ADA3DC4600), frame # 0
+[2020.08.27-04.10.23:688][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001ADA3D260C0), frame # 0
+[2020.08.27-04.10.23:693][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.27-04.10.23:709][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.08.27-04.10.23:709][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.27-04.10.23:710][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.288ms to complete.
+[2020.08.27-04.10.23:710][  0]LogFileHelpers: Loading map 'HandheldARBlankMap' took 0.192
+[2020.08.27-04.10.23:715][  0]LogUnrealEdMisc: Total Editor Startup Time, took 15.227
+[2020.08.27-04.10.24:077][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.27-04.10.24:095][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.27-04.10.24:116][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.27-04.10.24:138][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.27-04.10.24:183][  0]LogCollectionManager: Loaded 0 collections in 0.004192 seconds
+[2020.08.27-04.10.24:252][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Collections/' took 0.00s
+[2020.08.27-04.10.24:252][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Content/Developers/Dell/Collections/' took 0.00s
+[2020.08.27-04.10.24:252][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Content/Collections/' took 0.00s
+[2020.08.27-04.10.24:252][  0]LogContentBrowser: Native class hierarchy populated in 0.0260 seconds. Added 3530 classes and 867 folders.
+[2020.08.27-04.10.24:271][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.08.27-04.10.25:351][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.08.27-04.10.25:361][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 0 folders.
+[2020.08.27-04.10.25:554][  0]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.08.27-04.10.25:558][  0]LogSlate: Took 0.000437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.08.27-04.10.25:588][  0]LogSlate: Took 0.013427 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.08.27-04.10.25:850][  0]LogRenderer: Reallocating scene render targets to support 856x372 Format 10 NumSamples 1 (Frame:1).
+[2020.08.27-04.10.26:742][  0]LogSlate: Window 'Tutoriales' being destroyed
+[2020.08.27-04.10.26:765][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.08.27-04.10.26:766][  0]LogLoad: (Engine Initialization) Total time: 18.28 seconds
+[2020.08.27-04.10.26:766][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.08.27-04.10.26:833][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.08.27-04.10.26:857][  0]LogSlate: Took 0.013266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.08.27-04.11.16:953][733]LogAssetRegistry: Asset discovery search completed in 61.0411 seconds
+[2020.08.27-04.11.16:964][733]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2020.08.27-04.16.35:355][711]LogSlate: Window 'Guardar nivel como' being destroyed
+[2020.08.27-04.16.35:395][711]LogSlate: Took 0.001194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.08.27-04.16.35:470][711]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2020.08.27-04.16.35:506][711]LogSavePackage: Moving '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Main67A243DF4283E6C377575995F3CD43D8.tmp' to '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Content/HandheldARBP/Maps/Main.umap'
+[2020.08.27-04.16.35:530][711]LogFileHelpers: Saving map 'Main' took 0.158
+[2020.08.27-04.16.35:530][711]Cmd: MAP LOAD FILE="../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Content/HandheldARBP/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.27-04.16.35:564][711]LightingResults: New page: Diseñar la iluminación
+[2020.08.27-04.16.35:565][711]LoadErrors: New page: Cargando mapa: Main.umap
+[2020.08.27-04.16.35:565][711]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
+[2020.08.27-04.16.35:567][711]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.27-04.16.35:567][711]MapCheck: New page: Revisión del mapa
+[2020.08.27-04.16.35:567][711]LightingResults: New page: Diseñar la iluminación
+[2020.08.27-04.16.35:584][711]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001ADA3D260C0), frame # 14711
+[2020.08.27-04.16.35:584][711]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001ADA3DC4600), frame # 14711
+[2020.08.27-04.16.35:586][711]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2020.08.27-04.16.35:593][711]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.27-04.16.35:593][711]LogAIModule: Creating AISystem for world Main
+[2020.08.27-04.16.35:593][711]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001ADA3DC4600), frame # 14711
+[2020.08.27-04.16.35:593][711]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001ADBAF41440), frame # 14711
+[2020.08.27-04.16.35:606][711]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.08.27-04.16.35:646][711]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.27-04.16.35:646][711]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.194ms to complete.
+[2020.08.27-04.16.35:647][711]LogFileHelpers: Loading map 'Main' took 0.116
+[2020.08.27-04.16.35:652][711]AssetCheck: New page: Asset Save: Main
+[2020.08.27-04.16.35:652][711]LogContentValidation: Display: Validating World /Game/HandheldARBP/Maps/Main.Main
+[2020.08.27-04.18.47:343][894]LogSlate: Window 'Escoger clase padre' being destroyed
+[2020.08.27-04.19.17:039][502]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.08.27-04.19.17:042][502]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/Ep_gamemodel.Ep_gamemodel:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/HandheldARBP/Blueprints/NewBlueprint.PackageMetaData'
+[2020.08.27-04.19.17:042][502]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/Ep_gamemodel.SKEL_Ep_gamemodel_C' ref from Metadata '/Game/HandheldARBP/Blueprints/NewBlueprint.PackageMetaData'
+[2020.08.27-04.19.17:042][502]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/Ep_gamemodel.Ep_gamemodel_C' ref from Metadata '/Game/HandheldARBP/Blueprints/NewBlueprint.PackageMetaData'
+[2020.08.27-04.19.17:042][502]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/Ep_gamemodel.Ep_gamemodel:EventGraph.K2Node_Event_0' ref from Metadata '/Game/HandheldARBP/Blueprints/NewBlueprint.PackageMetaData'
+[2020.08.27-04.19.17:042][502]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/Ep_gamemodel.Ep_gamemodel:EventGraph.K2Node_Event_1' ref from Metadata '/Game/HandheldARBP/Blueprints/NewBlueprint.PackageMetaData'
+[2020.08.27-04.19.17:128][502]LogSavePackage: Moving '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Ep_gamemodelB2C1C2AF447F774399C703836E04266C.tmp' to '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Content/HandheldARBP/Blueprints/Ep_gamemodel.uasset'
+[2020.08.27-04.19.17:257][502]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.08.27-04.19.17:277][502]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.08.27-04.19.17:287][502]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2020.08.27-04.19.17:327][502]AssetCheck: New page: Asset Save: Ep_gamemodel
+[2020.08.27-04.19.17:327][502]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/Blueprints/Ep_gamemodel.Ep_gamemodel
+[2020.08.27-04.19.47:401][887]LogSlate: Window 'Escoger clase padre' being destroyed
+[2020.08.27-04.20.10:986][259]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.08.27-04.20.10:988][259]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/BP_pawn.BP_pawn:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/HandheldARBP/Blueprints/NewBlueprint.PackageMetaData'
+[2020.08.27-04.20.10:988][259]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/BP_pawn.SKEL_BP_pawn_C' ref from Metadata '/Game/HandheldARBP/Blueprints/NewBlueprint.PackageMetaData'
+[2020.08.27-04.20.10:988][259]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/BP_pawn.BP_pawn_C' ref from Metadata '/Game/HandheldARBP/Blueprints/NewBlueprint.PackageMetaData'
+[2020.08.27-04.20.10:988][259]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/BP_pawn.BP_pawn:EventGraph.K2Node_Event_0' ref from Metadata '/Game/HandheldARBP/Blueprints/NewBlueprint.PackageMetaData'
+[2020.08.27-04.20.10:988][259]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/BP_pawn.BP_pawn:EventGraph.K2Node_Event_1' ref from Metadata '/Game/HandheldARBP/Blueprints/NewBlueprint.PackageMetaData'
+[2020.08.27-04.20.10:988][259]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/BP_pawn.BP_pawn:EventGraph.K2Node_Event_2' ref from Metadata '/Game/HandheldARBP/Blueprints/NewBlueprint.PackageMetaData'
+[2020.08.27-04.20.11:063][259]LogSavePackage: Moving '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/BP_pawn66D509E14F0C5A242F65FDA60DF4ED48.tmp' to '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Content/HandheldARBP/Blueprints/BP_pawn.uasset'
+[2020.08.27-04.20.11:202][259]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.08.27-04.20.11:219][259]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.08.27-04.20.11:228][259]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2020.08.27-04.20.11:254][259]AssetCheck: New page: Asset Save: BP_pawn
+[2020.08.27-04.20.11:254][259]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/Blueprints/BP_pawn.BP_pawn
+[2020.08.27-04.22.13:236][778]LogSlate: Window 'Escoger clase padre' being destroyed
+[2020.08.27-04.22.36:560][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2020.08.27-04.22.36:562][ 98]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/BP_playerController.BP_playerController:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/HandheldARBP/Blueprints/NewBlueprint.PackageMetaData'
+[2020.08.27-04.22.36:562][ 98]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/BP_playerController.SKEL_BP_playerController_C' ref from Metadata '/Game/HandheldARBP/Blueprints/NewBlueprint.PackageMetaData'
+[2020.08.27-04.22.36:562][ 98]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/BP_playerController.BP_playerController_C' ref from Metadata '/Game/HandheldARBP/Blueprints/NewBlueprint.PackageMetaData'
+[2020.08.27-04.22.36:562][ 98]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/BP_playerController.BP_playerController:EventGraph.K2Node_Event_0' ref from Metadata '/Game/HandheldARBP/Blueprints/NewBlueprint.PackageMetaData'
+[2020.08.27-04.22.36:562][ 98]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/BP_playerController.BP_playerController:EventGraph.K2Node_Event_1' ref from Metadata '/Game/HandheldARBP/Blueprints/NewBlueprint.PackageMetaData'
+[2020.08.27-04.22.36:635][ 98]LogSavePackage: Moving '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/BP_playerController3D3C32C2458C65AC0741EC826DAC15B0.tmp' to '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Content/HandheldARBP/Blueprints/BP_playerController.uasset'
+[2020.08.27-04.22.36:776][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.08.27-04.22.36:794][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.08.27-04.22.36:805][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2020.08.27-04.22.36:831][ 98]AssetCheck: New page: Asset Save: BP_playerController
+[2020.08.27-04.22.36:831][ 98]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/Blueprints/BP_playerController.BP_playerController
+[2020.08.27-04.23.00:586][445]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2020.08.27-04.23.00:588][445]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/BP_gamemodel.BP_gamemodel_C' ref from Metadata '/Game/HandheldARBP/Blueprints/Ep_gamemodel.PackageMetaData'
+[2020.08.27-04.23.00:588][445]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/BP_gamemodel.SKEL_BP_gamemodel_C' ref from Metadata '/Game/HandheldARBP/Blueprints/Ep_gamemodel.PackageMetaData'
+[2020.08.27-04.23.00:588][445]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/BP_gamemodel.BP_gamemodel:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/HandheldARBP/Blueprints/Ep_gamemodel.PackageMetaData'
+[2020.08.27-04.23.00:588][445]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/BP_gamemodel.BP_gamemodel:EventGraph.K2Node_Event_0' ref from Metadata '/Game/HandheldARBP/Blueprints/Ep_gamemodel.PackageMetaData'
+[2020.08.27-04.23.00:588][445]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/BP_gamemodel.BP_gamemodel:EventGraph.K2Node_Event_1' ref from Metadata '/Game/HandheldARBP/Blueprints/Ep_gamemodel.PackageMetaData'
+[2020.08.27-04.23.00:641][445]LogSavePackage: Moving '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/BP_gamemodel00E3479A4E248B2BD03F119282383A76.tmp' to '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Content/HandheldARBP/Blueprints/BP_gamemodel.uasset'
+[2020.08.27-04.23.00:777][445]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2020.08.27-04.23.00:800][445]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2020.08.27-04.23.00:812][445]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2020.08.27-04.23.00:837][445]AssetCheck: New page: Asset Save: BP_gamemodel
+[2020.08.27-04.23.00:837][445]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/Blueprints/BP_gamemodel.BP_gamemodel
+[2020.08.27-04.27.46:798][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2020.08.27-04.27.46:800][245]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/BP_gamemode.BP_gamemode_C' ref from Metadata '/Game/HandheldARBP/Blueprints/BP_gamemodel.PackageMetaData'
+[2020.08.27-04.27.46:800][245]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/BP_gamemode.SKEL_BP_gamemode_C' ref from Metadata '/Game/HandheldARBP/Blueprints/BP_gamemodel.PackageMetaData'
+[2020.08.27-04.27.46:801][245]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/BP_gamemode.BP_gamemode:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/HandheldARBP/Blueprints/BP_gamemodel.PackageMetaData'
+[2020.08.27-04.27.46:801][245]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/BP_gamemode.BP_gamemode:EventGraph.K2Node_Event_0' ref from Metadata '/Game/HandheldARBP/Blueprints/BP_gamemodel.PackageMetaData'
+[2020.08.27-04.27.46:801][245]LogMetaData: Removing '/Game/HandheldARBP/Blueprints/BP_gamemode.BP_gamemode:EventGraph.K2Node_Event_1' ref from Metadata '/Game/HandheldARBP/Blueprints/BP_gamemodel.PackageMetaData'
+[2020.08.27-04.27.46:892][245]LogSavePackage: Moving '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/BP_gamemode042AA1D84F11D9195210259E1668C7A1.tmp' to '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Content/HandheldARBP/Blueprints/BP_gamemode.uasset'
+[2020.08.27-04.27.47:041][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2020.08.27-04.27.47:062][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2020.08.27-04.27.47:073][245]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.08.27-04.27.47:115][245]AssetCheck: New page: Asset Save: BP_gamemode
+[2020.08.27-04.27.47:115][245]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/Blueprints/BP_gamemode.BP_gamemode
+[2020.08.27-04.27.49:940][410]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/HandheldARBP/Blueprints/BP_gamemode.BP_gamemode
+[2020.08.27-04.27.50:424][410]LogLinker: Warning: Asset '../../Plugins/Runtime/AR/Google/GoogleARCore/Content/ARCoreUtils.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2020.08.27-04.27.50:425][410]LogLinker: Warning: Asset '../../Plugins/Runtime/AR/Google/GoogleARCore/Content/CameraTextureUVParams.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2020.08.27-04.27.50:533][410]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 125 classes and 0 folders.
+[2020.08.27-04.27.52:507][410]LogRenderer: Reallocating scene render targets to support 856x588 Format 10 NumSamples 1 (Frame:1).
+[2020.08.27-04.28.31:740][534]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.08.27-04.29.23:894][190]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2020.08.27-04.29.23:896][190]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/HandheldARBP/Maps/Main' took 0.033
+[2020.08.27-04.29.23:898][190]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HandheldARBP/Blueprints/BP_gamemode] ([1] browsable assets)...
+[2020.08.27-04.29.23:898][190]OBJ SavePackage: Finished generating thumbnails for package [/Game/HandheldARBP/Blueprints/BP_gamemode]
+[2020.08.27-04.29.23:923][190]LogSavePackage: Moving '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/BP_gamemode_Auto1404A77DF4922E9F5315B6E8BE2C257CD.tmp' to '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Autosaves/Game/HandheldARBP/Blueprints/BP_gamemode_Auto1.uasset'
+[2020.08.27-04.29.23:925][190]LogFileHelpers: Auto-saving content packages took 0.029
+[2020.08.27-04.30.26:956][124]BlueprintLog: New page: Compilar BP_gamemode
+[2020.08.27-04.30.27:016][124]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2020.08.27-04.31.02:499][437]BlueprintLog: New page: Compilar BP_gamemode
+[2020.08.27-04.31.02:557][437]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2020.08.27-04.31.02:640][437]LogSavePackage: Moving '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/BP_gamemode90367D0243C4D2BC3827E28249502D85.tmp' to '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Content/HandheldARBP/Blueprints/BP_gamemode.uasset'
+[2020.08.27-04.31.02:657][437]AssetCheck: New page: Asset Save: BP_gamemode
+[2020.08.27-04.31.02:657][437]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/Blueprints/BP_gamemode.BP_gamemode
+[2020.08.27-04.31.36:438][355]LogSlate: Window 'BP_gamemode' being destroyed
+[2020.08.27-04.32.11:172][332]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/HandheldARBP/Blueprints/BP_pawn.BP_pawn
+[2020.08.27-04.34.04:011][157]LogSlate: Took 0.013265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.08.27-04.37.44:053][816]BlueprintLog: New page: Compilar BP_pawn
+[2020.08.27-04.37.44:110][816]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2020.08.27-04.37.44:199][816]LogSavePackage: Moving '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/BP_pawn9699E1434F8D3BBAFF09368C1DF6029B.tmp' to '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Content/HandheldARBP/Blueprints/BP_pawn.uasset'
+[2020.08.27-04.37.44:220][816]AssetCheck: New page: Asset Save: BP_pawn
+[2020.08.27-04.37.44:220][816]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/Blueprints/BP_pawn.BP_pawn
+[2020.08.27-04.38.06:750][937]LogTemp: Resetting audio stream to device id 
+[2020.08.27-04.38.06:795][937]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.27-04.38.06:795][937]LogAudioMixer: Display: 1: FrontRight
+[2020.08.27-04.41.38:937][950]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.08.27-04.41.40:158][950]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.08.27-04.41.40:182][950]LogTemp: Resetting audio stream to device id 
+[2020.08.27-04.41.40:384][950]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.27-04.41.40:384][950]LogAudioMixer: Display: 1: FrontRight
+[2020.08.27-04.43.48:201][444]LogSlate: Window 'Ajustes del proyecto' being destroyed
+[2020.08.27-04.48.28:757][790]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.08.27-04.48.36:996][981]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.08.27-04.52.12:212][200]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.08.27-04.53.25:510][962]LogSlate: Took 0.008577 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.08.27-04.54.49:974][490]BlueprintLog: New page: Compilar BP_pawn
+[2020.08.27-04.54.50:099][490]LogUObjectHash: Compacting FUObjectHashTables data took   8.29ms
+[2020.08.27-04.54.50:203][490]LogSavePackage: Moving '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/BP_pawn7222BE3F49153A1F83C5A492FBBBFD8F.tmp' to '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Content/HandheldARBP/Blueprints/BP_pawn.uasset'
+[2020.08.27-04.54.50:232][490]AssetCheck: New page: Asset Save: BP_pawn
+[2020.08.27-04.54.50:232][490]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/Blueprints/BP_pawn.BP_pawn
+[2020.08.27-04.54.57:698][871]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2020.08.27-04.54.57:699][871]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/HandheldARBP/Maps/Main' took 0.057
+[2020.08.27-04.54.57:700][871]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HandheldARBP/Blueprints/BP_pawn] ([1] browsable assets)...
+[2020.08.27-04.54.57:700][871]OBJ SavePackage: Finished generating thumbnails for package [/Game/HandheldARBP/Blueprints/BP_pawn]
+[2020.08.27-04.54.57:721][871]LogSavePackage: Moving '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/BP_pawn_Auto219C0470240BFCD3CACA83AB833AF07F3.tmp' to '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Autosaves/Game/HandheldARBP/Blueprints/BP_pawn_Auto2.uasset'
+[2020.08.27-04.54.57:722][871]LogFileHelpers: Auto-saving content packages took 0.023
+[2020.08.27-04.56.40:432][567]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.08.27-04.57.01:444][567]LogSlate: Window 'Escoger clase de activo de datos' being destroyed
+[2020.08.27-04.57.48:006][ 86]LogSavePackage: Moving '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/D_SessionConfig6244BFA142069B021578AA93A6CDF7CD.tmp' to '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Content/HandheldARBP/Blueprints/D_SessionConfig.uasset'
+[2020.08.27-04.57.48:338][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2020.08.27-04.57.48:388][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2020.08.27-04.57.48:427][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.08.27-04.57.48:477][ 86]AssetCheck: New page: Asset Save: D_SessionConfig
+[2020.08.27-04.57.48:477][ 86]LogContentValidation: Display: Validating ARSessionConfig /Game/HandheldARBP/Blueprints/D_SessionConfig.D_SessionConfig
+[2020.08.27-04.57.55:186][461]LogAssetEditorSubsystem: Opening Asset editor for ARSessionConfig /Game/HandheldARBP/Blueprints/D_SessionConfig.D_SessionConfig
+[2020.08.27-05.01.04:422][776]LogSavePackage: Moving '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/D_SessionConfigE9BFE23F4403FA31D6525AA37BEBD0E5.tmp' to '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Content/HandheldARBP/Blueprints/D_SessionConfig.uasset'
+[2020.08.27-05.01.04:439][776]AssetCheck: New page: Asset Save: D_SessionConfig
+[2020.08.27-05.01.04:439][776]LogContentValidation: Display: Validating ARSessionConfig /Game/HandheldARBP/Blueprints/D_SessionConfig.D_SessionConfig
+[2020.08.27-05.07.01:986][188]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2020.08.27-05.07.01:989][188]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/HandheldARBP/Maps/Main' took 0.052
+[2020.08.27-05.07.01:990][188]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HandheldARBP/Blueprints/BP_pawn] ([1] browsable assets)...
+[2020.08.27-05.07.01:990][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/HandheldARBP/Blueprints/BP_pawn]
+[2020.08.27-05.07.02:021][188]LogSavePackage: Moving '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/BP_pawn_Auto37C10BC7649A5C7959BA378B673CA51CE.tmp' to '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Autosaves/Game/HandheldARBP/Blueprints/BP_pawn_Auto3.uasset'
+[2020.08.27-05.07.02:025][188]LogFileHelpers: Auto-saving content packages took 0.036
+[2020.08.27-05.07.12:111][374]LogSlate: Window 'Seleccionador de color' being destroyed
+[2020.08.27-05.07.25:609][456]LogSlate: Window 'Seleccionador de color' being destroyed
+[2020.08.27-05.07.54:704][850]BlueprintLog: New page: Compilar BP_pawn
+[2020.08.27-05.07.54:776][850]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2020.08.27-05.07.54:845][850]LogSavePackage: Moving '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/BP_pawn931F07154608A2480FD914BAA446CEEA.tmp' to '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Content/HandheldARBP/Blueprints/BP_pawn.uasset'
+[2020.08.27-05.07.54:864][850]AssetCheck: New page: Asset Save: BP_pawn
+[2020.08.27-05.07.54:864][850]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/Blueprints/BP_pawn.BP_pawn
+[2020.08.27-05.09.36:973][797]BlueprintLog: New page: Compilar BP_pawn
+[2020.08.27-05.09.37:043][797]LogUObjectHash: Compacting FUObjectHashTables data took   4.73ms
+[2020.08.27-05.09.37:874][838]LogSavePackage: Moving '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/BP_pawn0DEF49494F924F0F5BB73AAE663969D6.tmp' to '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Content/HandheldARBP/Blueprints/BP_pawn.uasset'
+[2020.08.27-05.09.37:893][838]AssetCheck: New page: Asset Save: BP_pawn
+[2020.08.27-05.09.37:893][838]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/Blueprints/BP_pawn.BP_pawn
+[2020.08.27-05.10.10:861][752]LogEditorViewport: Clicking Background
+[2020.08.27-05.12.05:331][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.54ms
+[2020.08.27-05.12.05:368][  0]LogSavePackage: Moving '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/Main8F322BF34CD472570296FC9DD561C8FD.tmp' to '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Content/HandheldARBP/Maps/Main.umap'
+[2020.08.27-05.12.05:423][  0]AssetCheck: New page: Asset Save: Main
+[2020.08.27-05.12.05:424][  0]LogContentValidation: Display: Validating World /Game/HandheldARBP/Maps/Main.Main
+[2020.08.27-05.12.08:362][151]LogSavePackage: Moving '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/BP_gamemode6B0B205149F1DE4D2E1E25B15EF70B0D.tmp' to '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Content/HandheldARBP/Blueprints/BP_gamemode.uasset'
+[2020.08.27-05.12.08:382][151]AssetCheck: New page: Asset Save: BP_gamemode
+[2020.08.27-05.12.08:382][151]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/Blueprints/BP_gamemode.BP_gamemode
+[2020.08.27-05.12.09:745][218]LogSavePackage: Moving '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/BP_pawn614ADEFA450ED44BD24E4EBBACFB0A31.tmp' to '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Content/HandheldARBP/Blueprints/BP_pawn.uasset'
+[2020.08.27-05.12.09:766][218]AssetCheck: New page: Asset Save: BP_pawn
+[2020.08.27-05.12.09:766][218]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/Blueprints/BP_pawn.BP_pawn
+[2020.08.27-05.12.12:034][341]LogSavePackage: Moving '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Saved/D_SessionConfigE2787BA84822E921DF580EBA6789EAD5.tmp' to '../../../../../../Users/Dell/OneDrive/Documentos/GitHub/ARSolaris/Solaris/Content/HandheldARBP/Blueprints/D_SessionConfig.uasset'
+[2020.08.27-05.12.12:050][341]AssetCheck: New page: Asset Save: D_SessionConfig
+[2020.08.27-05.12.12:050][341]LogContentValidation: Display: Validating ARSessionConfig /Game/HandheldARBP/Blueprints/D_SessionConfig.D_SessionConfig
