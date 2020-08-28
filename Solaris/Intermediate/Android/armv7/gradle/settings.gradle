@@ -1,0 +1,4 @@
+rootProject.name='app'
+include ':app'
+include ':downloader_library'
+include ':permission_library'

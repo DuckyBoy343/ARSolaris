@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "Y:\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mo\\values-mo.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Fus-3\\.gradle\\caches\\transforms-2\\files-2.1\\b5b827e3021f4e39ca00684c1296a93a\\core-1.9.0\\res\\values-mo\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,238,291,399,509",
+                        "endColumns": "47,52,107,109,65",
+                        "endOffsets": "237,290,398,508,574"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,107,164,276,390",
+                        "endColumns": "51,56,111,113,69",
+                        "endOffsets": "102,159,271,385,455"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+Plugins\Runtime\AR\Google\GoogleARCore\Source\GoogleARCoreBase\GoogleARCoreBase_APL.xml
+Plugins\Runtime\AndroidPermission\Source\AndroidPermission\AndroidPermission_APL.xml
+Plugins\Online\Android\OnlineSubsystemGooglePlay\Source\OnlineSubsystemGooglePlay_UPL.xml
+Plugins\Runtime\GoogleCloudMessaging\Source\GoogleCloudMessaging\GoogleCloudMessaging_UPL.xml
+Plugins\Runtime\GooglePAD\Source\GooglePAD\GooglePAD_APL.xml
+Plugins\Runtime\Oculus\OculusVR\Source\OculusHMD\OculusMobile_APL.xml
+Source\Runtime\Online\Voice\AndroidVoiceImpl_UPL.xml
+Source\ThirdParty\GoogleGameSDK\GoogleGameSDK_APL.xml

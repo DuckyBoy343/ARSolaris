@@ -1,0 +1,12 @@
+repositories {
+	maven { url uri('C:/NVPACK/android-sdk-windows/extras/google/m2repository') }
+	maven { url uri('C:/NVPACK/android-sdk-windows/extras/android/m2repository') }
+	maven { url uri('C:/Program Files/Epic Games/UE_4.25/Engine/Source/ThirdParty/Android/extras/google/m2repository') }
+	maven { url uri('C:/Program Files/Epic Games/UE_4.25/Engine/Source/ThirdParty/Android/extras/android/m2repository') }
+}
+dependencies {
+	implementation 'com.google.android.gms:play-services-auth:11.8.0'
+	implementation 'com.google.android.gms:play-services-games:11.8.0'
+	implementation 'com.google.android.gms:play-services-nearby:11.8.0'
+	implementation 'com.google.android.gms:play-services-plus:11.8.0'
+}

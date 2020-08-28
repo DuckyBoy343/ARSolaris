@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "Y:\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rCN\\values-zh-rCN.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Fus-3\\.gradle\\caches\\transforms-2\\files-2.1\\b5b827e3021f4e39ca00684c1296a93a\\core-1.9.0\\res\\values-zh-rCN\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "194,237,282,354,430",
+                        "endColumns": "42,44,71,75,56",
+                        "endOffsets": "236,281,353,429,486"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "105,152,201,277,357",
+                        "endColumns": "46,48,75,79,60",
+                        "endOffsets": "147,196,272,352,413"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Fus-3\\.gradle\\caches\\transforms-2\\files-2.1\\17bcd587b44a2cac424c24032b1e88fc\\play-services-base-11.8.0\\res\\values-zh-rCN\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "285,384,545,658,758,922,1036,1164,1281,1448,1547,1708,1821,1984,2118,2200,2283",
+                        "endColumns": "98,160,112,99,163,113,127,116,166,98,160,112,162,133,81,82,98",
+                        "endOffsets": "383,544,657,757,921,1035,1163,1280,1447,1546,1707,1820,1983,2117,2199,2282,2381"
+                    },
+                    "to": {
+                        "startLines": "7,8,9,10,11,12,13,14,16,17,18,19,20,21,22,23,24",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "418,521,682,799,903,1067,1185,1317,1596,1763,1866,2027,2144,2307,2445,2531,2618",
+                        "endColumns": "102,160,116,103,163,117,131,120,166,102,160,116,162,137,85,86,102",
+                        "endOffsets": "516,677,794,898,1062,1180,1312,1433,1758,1861,2022,2139,2302,2440,2526,2613,2716"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Fus-3\\.gradle\\caches\\transforms-2\\files-2.1\\a43b57c3a36d8afc93f5c789fdd27c54\\play-services-basement-11.8.0\\res\\values-zh-rCN\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "287",
+                        "endColumns": "157",
+                        "endOffsets": "444"
+                    },
+                    "to": {
+                        "startLines": "15",
+                        "startColumns": "4",
+                        "startOffsets": "1438",
+                        "endColumns": "157",
+                        "endOffsets": "1591"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Fus-3\\.gradle\\caches\\transforms-2\\files-2.1\\f193a451298a132103515b1cc52b39c9\\support-compat-27.1.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "25",
+                        "startColumns": "4",
+                        "startOffsets": "2721",
+                        "endColumns": "100",
+                        "endOffsets": "2817"
+                    }
+                }
+            ]
+        }
+    ]
+}
