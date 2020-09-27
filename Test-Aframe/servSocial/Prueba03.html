@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- script de A-Frane version1 1.0.0 -->
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <!-- script de AR.JS con soporte de marker + location -->
+        <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+        <script>
+            window.addEventListener('camera-init', (data) => {
+                console.log('camera-init', data);
+            })
+
+            window.addEventListener('camera-error', (error) => {
+                console.log('camera-error', error);
+            })
+
+            AFRAME.registerComponent('registerevents', {
+                init: function () {
+                    var marker = this.el;
+
+                    marker.addEventListener('markerFound', function() {
+                        var markerId = marker.id;
+                        console.log('Marcador Encontrado', markerId);
+                        // TODO: Add your own code here to react to the marker being found.
+                    });
+
+                    marker.addEventListener('markerLost', function() {
+                        var markerId = marker.id;
+                        console.log('Marcador No Encontrado', markerId);
+                        // TODO: Add your own code here to react to the marker being lost.
+                    });
+                }
+            });
+        </script>
+    </head>
+    <body style="margin : 0px; overflow: hidden;">
+        <a-scene embedded arjs="debugUIEnabled: false" vr-mode-ui="enabled: false;">
+            <a-assets>
+                    <!-- ID - Model obj= Modelo y mtl - Pack de textura --> 
+                     <a-asset-item id="escalera" src="escaleras2.gltf"></a-asset-item>
+                <!-- <a-assets-item id="Moon2Kobj" src="Moon2K.obj"></a-assets-item>
+                <a-assets-item id="Moon2Kmtl" src="Moon2K.mtl"></a-assets-item> -->
+            </a-assets> 
+                    <!-- URL- patt -->
+          <!--   <a-marker type='pattern' url='pattern-17.patt'  registerevents>               
+                <a-entity obj-model="obj: #ControlObj; mtl: #ControlMtl" scale="0.1 -0.1 0.1" rotation="180 0 0"></a-entity>
+            </a-marker> -->
+
+            <a-marker type='pattern' url=pattern-17.patt' registerevents>
+               <a-entity gltf-model="#escalera"></a-entity>
+            
+            </a-marker>
+            <a-entity camera></a-entity>
+        </a-scene>
+    </body>
+</html>
