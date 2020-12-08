@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- script de A-Frane version1 1.0.0 -->
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <!-- script de AR.JS con soporte de marker + location -->
+        <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+        <script>
+            window.addEventListener('camera-init', (data) => {
+                console.log('camera-init', data);
+            })
+            window.addEventListener('camera-error', (error) => {
+                console.log('camera-error', error);
+            })
+            AFRAME.registerComponent('registerevents', {
+                init: function () {
+                    var marker = this.el;
+                    marker.addEventListener('markerFound', function() {
+                        var markerId = marker.id;
+                        console.log('Marcador Encontrado', markerId);
+                    });
+                    marker.addEventListener('markerLost', function() {
+                        var markerId = marker.id;
+                        console.log('Marcador No Encontrado', markerId); 
+                    });
+                }
+            });
+        </script>
+    </head>
+    <body style="margin : 0px; overflow: hidden;">
+        <a-scene embedded arjs="debugUIEnabled: false" vr-mode-ui="enabled: false;">
+            <a-assets> <!-- //Carga de recuros. -->
+                     <a-asset-item id="sun" src="sol.gltf"></a-asset-item>
+            </a-assets> 
+            <a-marker type='pattern' url='pattern-17.patt' registerevents> 
+            <!-- //Marcador de tipo pattern -->  
+                <a-entity gltf-model="#sun" rotation="0 0 90"></a-entity> <!-- //Modelo glTF -->
+             
+                <a-entity
+                geometry="primitive: plane; width: auto; height: auto"
+                material="color: blue"
+                text="value: Sol - Estrella de tipo-G de la secuencia principal y clase de luminosidad V que se encuentra en el centro del sistema solar
+                Temperatura de la superficie: 5,778 K
+                Distancia a la Tierra: 149.6 millones km
+                Masa: 1.989 × 10^30 kg
+                Radio: 696,340 km
+                Edad: 4.603 miles de millones años"
+                rotation="-90 0 0"
+                position="0 1 -1"></a-entity>           
+            </a-marker>
+            <a-entity camera></a-entity>
+        </a-scene>
+    </body>
+</html>
