@@ -3,41 +3,62 @@
 
 <head>
 	<meta charset="utf-8">
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		.column {
+			float: left;
+			width: 50%;
+			padding: 10px;
+		}
+
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+	</style>
 	<title>Solarys Web</title>
+	<link rel="stylesheet" href="Estilo.css">
 </head>
 
-<body background="Res/Fondo.jpg">
+<body background="Res/8k_stars_milky_way.jpg">
 	<p style="text-align:center;">
 		Sol<br>
-		<img src="Res/Sol.jpg" width="200" height="100"><br>
+		<img src="Res/sun.gif" width="200" height="200"><br>
 		<a href="Sol.html"><input type="button" name="Sol" value="Sol"></a><br><br>
-		Mercurio <br>
-		<img src="Res/mercurio.jpg" width="200" height="100"><br>
-		<a href=""><input type="button" name="Mercury" value="Mercurio"></a><br><br>
-		Venus<br>
-		<img src="Res/venus.jpg" width="200" height="140"><br>
-		<a href=""><input type="button" name="Venus" value="Venus"></a><br><br>
-		Tierra<br>
-		<img src="Res/tierra.jpg" width="200" height="100"><br>
-		<a href="Tierra.html"><input type="button" name="Tierra" value="Tierra"></a><br><br>
-		Marte<br>
-		<img src="Res/marte.jpg" width="180" height="100"><br>
-		<a href=""><input type="button" name="Marte" value="Marte"></a><br><br>
-		Júpiter<br>
-		<img src="Res/jupiter.jpg" width="150" height="100"><br>
-		<a href=""><input type="button" name="Jupiter" value="Jupiter"></a><br><br>
-		Saturno<br>
-		<img src="Res/saturno.jpg" width="160" height="100"><br>
-		<a href=""><input type="button" name="Saturno" value="Saturno"></a><br><br>
-		Urano<br>
-		<img src="Res/urano.jpg" width="200" height="100"><br>
-		<a href=""><input type="button" name="Urano" value="Urano"></a><br><br>
-		Neptuno<br>
-		<img src="Res/neptuno.jpg" width="130" height="100"><br>
-		<a href=""><input type="button" name="Neptuno" value="Neptuno"></a><br><br>
-		Pluton<br>
-		<img src="Res/pluton.jpg" width="200" height="100"><br>
-		<a href=""><input type="button" name="Pluton" value="Pluton"></a><br>
+	<div class="row" style="text-align: center;">
+		<div class="column">
+			Mercurio <br>
+			<img src="Res/mercury.gif" width="200" height="120"><br>
+			<a href=""><input type="button" name="Mercury" value="Mercurio"></a><br><br>
+			Venus<br>
+			<img src="Res/venus.gif" width="200" height="200"><br>
+			<a href=""><input type="button" name="Venus" value="Venus"></a><br><br>
+			Tierra<br>
+			<img src="Res/earth.gif" width="150" height="150"><br>
+			<a href="Tierra.html"><input type="button" name="Tierra" value="Tierra"></a><br><br>
+			Marte<br>
+			<img src="Res/mars.gif" width="110" height="110"><br>
+			<a href=""><input type="button" name="Marte" value="Marte"></a><br><br>
+		</div>
+		<div class="column">
+			Júpiter<br>
+			<img src="Res/jupiter.gif" width="150" height="150"><br>
+			<a href=""><input type="button" name="Jupiter" value="Jupiter"></a><br><br>
+			Saturno<br>
+			<img src="Res/saturn.gif" width="200" height="200"><br>
+			<a href=""><input type="button" name="Saturno" value="Saturno"></a><br><br>
+			Urano<br>
+			<img src="Res/ur-anus.gif" width="200" height="200"><br>
+			<a href=""><input type="button" name="Urano" value="Urano"></a><br><br>
+			Neptuno<br>
+			<img src="Res/neptune.gif" width="200" height="200"><br>
+			<a href=""><input type="button" name="Neptuno" value="Neptuno"></a><br><br>
+		</div>
+	</div>
 	</p>
 </body>
 
