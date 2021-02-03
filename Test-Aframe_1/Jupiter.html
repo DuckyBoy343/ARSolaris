@@ -5,31 +5,8 @@
         <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
         <!-- script de AR.JS con soporte de marker + location -->
         <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
-    <style>
-    .buttons {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 5em;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 10;
-    }
-
-    .say-hi-button {
-      padding: 0.25em;
-      border-radius: 4px;
-      border: none;
-      background: white;
-      color: black;
-      width: 4em;
-      height: 2em;
-    }
-    </style>
+    
         <script>
-
             window.addEventListener('camera-init', (data) => {
                 console.log('camera-init', data);
             })
@@ -64,25 +41,24 @@
        
         <a-scene embedded arjs="debugUIEnabled: false" vr-mode-ui="enabled: false;">
             <a-assets> <!-- //Carga de recuros. -->
-                     <a-asset-item id="earth" src="Gaia.gltf"></a-asset-item>
-            </a-assets>
+                     <a-asset-item id="jupiter" src="Jupiter.gltf"></a-asset-item>
+            </a-assets> 
             <a-marker type='pattern' url='pattern-17.patt' registerevents> 
             <!-- //Marcador de tipo pattern -->  
-                <a-entity light="type: point; intensity: 10.00; distance: 50; decay: 2"
+                <a-entity light="type: point; intensity: 10.00; distance: 50; decay: 1"
           position="0 15 -10"></a-entity>
-                <a-entity gltf-model="#earth" rotation="-45 -90 90" animation="property: rotation; to: 315 -90 90; loop: true; dur: 10000"></a-entity> <!-- //Modelo glTF -->
+                <a-entity gltf-model="#jupiter" rotation="-45 -90 90" animation="property: rotation; to: 315 -90 90; loop: true; dur: 10000"></a-entity> <!-- //Modelo glTF -->
                 <h1></h1>
                 
                 <a-entity
                 geometry="primitive: plane; width: auto; height: auto"
                 material="color: blue"
-                text="value: Tierra - planeta del sistema solar que gira alrededor de su estrella —el Sol— en la tercera órbita más interna.
-                Edad: 4.543 miles de millones años
-                Distancia desde el Sol: 149.6 millones km
-                Radio: 6,371 km
-                Población: 7.594 miles de millones (2018) Banco Mundial
-                Radio orbital medio: 0,999855 ua; 149 597 870,691 km
-                Luna: Luna"
+                text="value: Mercurio - Planeta del sistema solar que gira alrededor de su estrella —el Sol— Mercurio es el planeta del sistema solar más próximo al Sol y el más pequeño.
+                Edad: 4.503 miles de millones años
+                Distancia desde el Sol: 82 000 000 kilómetros
+                Periodo de rotación: 58,7 días
+                Período orbital sinódico: 115,88 días
+                Radio: 2,439.7"
                 rotation="-90 0 0"
                 position="0 1 -1"></a-entity>           
             </a-marker>
