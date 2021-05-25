@@ -1,7 +1,0 @@
-android {
-	defaultConfig {
-		ndk {
-			abiFilter "armeabi-v7a"
-		}
-	}
-}

@@ -1,4 +1,0 @@
-dependencies {
-	implementation project(':downloader_library')
-	implementation project(':permission_library')
-}
