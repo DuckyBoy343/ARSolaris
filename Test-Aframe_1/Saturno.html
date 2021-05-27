@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
         <!-- script de A-Frane version1 1.0.0 -->
         <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
         <!-- script de AR.JS con soporte de marker + location -->
@@ -68,9 +67,9 @@
             </a-assets> 
             <a-marker type='pattern' url='pattern-17.patt' registerevents> 
             <!-- //Marcador de tipo pattern -->  
-                <a-entity light="type: point; intensity: 10.00; distance: 50; decay: 1"
+                <a-entity light="type: point; intensity: 2.00; distance: 50; decay: 1"
           position="0 15 -10"></a-entity>
-                <a-entity gltf-model="#saturno" rotation="-45 -90 90" animation="property: rotation; to: 315 -90 90; easing:linear; loop: true; dur: 10000"></a-entity> <!-- //Modelo glTF -->
+                <a-entity gltf-model="#saturno" rotation="-45 -90 90" animation="property: rotation; to: 315 -90 90; loop: true; dur: 10000"></a-entity> <!-- //Modelo glTF -->
                 <h1></h1>
                 
                 <a-entity
