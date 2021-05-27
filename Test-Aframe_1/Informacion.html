@@ -4,32 +4,13 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Solarys Web</title>
+	<title>Solarys Web - Información</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
 	<link rel="stylesheet" href="Estilo.css">
-	<audio id="Music" src="Res/Music.mp3" autoplay="autoplay" loop="true"></audio>
-	<script>
-		var myAudio = document.getElementById("Music");
-		var img = document.getElementById("audio");
-		var isPlaying = false;
-
-		function togglePlay() {
-			isPlaying ? myAudio.pause() : myAudio.play();
-		};
-
-		myAudio.onplaying = function () {
-			isPlaying = true;
-			document.getElementById("audio").src = "Res/soundOn.png";
-		};
-		myAudio.onpause = function () {
-			isPlaying = false;
-			document.getElementById("audio").src = "Res/soundOff.png";
-		};
-	</script>
 </head>
 
 <body background="Res/8k_stars_milky_way.jpg">
@@ -71,45 +52,22 @@
 			</ul>
 		</div>
 	</nav>
-	<div id="cont">
-		<img class="sticky" id="audio" src="Res/soundOn.png" onclick="togglePlay()">
-	</div>
 	<p>
-	<h1 class="headone">Project Solaris</h1>
-	<h2 style="color: teal; text-align: center;">Seleccione un planeta</h2>
-	</p>
-	<p>
-	<div class="row1" style="text-align: center;">
-		<h3>Sol</h3>
-		<a href="Sol.html" target="blank"><input type="image" src="Res/sol.png" width="200" height="200" name="Sol"
-				value="Sol"></a><br><br>
-		<div class="column1">
-			<h3>Mercurio</h3>
-			<a href="Mercurio.html" target="blank"><input type="image" src="Res/4.png" width="170" height="170" name="Mercury" value="Mercurio"></a><br><br>
-			<h3>Venus</h3>
-			<a href="Venus.html" target="blank"><input type="image" src="Res/8.png" width="170" height="170"
-					name="Venus" value="Venus"></a><br><br>
-			<h3>Tierra</h3>
-			<a href="Tierra.html" target="blank"><input type="image" src="Res/2.png" width="170" height="170"
-					name="Tierra" value="Tierra"></a><br><br>
-			<h3>Marte</h3>
-			<a href="Marte.html" target="blank"><input type="image" src="Res/6.png" width="170" height="170"
-					name="Marte" value="Marte"></a><br><br>
-		</div>
-		<div class="column1">
-			<h3>Júpiter</h3>>
-			<a href="Jupiter.html" target="blank"><input type="image" src="Res/5.png" width="170" height="170" name="Jupiter" value="Jupiter"></a><br><br>
-			<h3>Saturno</h3>
-			<a href="Saturno.html" target="blank"><input type="image" src="Res/7.png" width="170" height="170"
-					name="Saturno" value="Saturno"></a><br><br>
-			<h3>Urano</h3>
-			<a href="Urano.html" target="blank"><input type="image" src="Res/3.png" width="170" height="170"
-					name="Urano" value="Urano"></a><br><br>
-			<h3>Neptuno</h3>>
-			<a href="Neptuno.html" target="blank"><input type="image" src="Res/1.png" width="170" height="170" name="Neptuno" value="Neptuno"></a><br><br>
-		</div>
-	</div>
-	</p>
+        <h1 class="headone">Project Solaris</h1>
+	<h2 style="color: teal; text-align: center;">Bienvenido a un universo de posibilidades</h2>
+	</p><br>
+	<p class="inf">
+        Bienvenido a Solaris Web, este sitio fue creado con el objetivo de mostrar una forma de aprendizaje de la Astronomía, haciendo uso de la realidad aumentada para mostrar las maravillas de nuestro sistema solar como pocas veces se ha explorado, todo esto a través de un simple dispositivo móvil.
+    </p><br>
+    <h3 class="sub">¿Cómo funciona?</h3><br>
+    <img class="imgInfo" src="Res/aframe-logo.png" height="150" width="150">
+    <p class="inf">
+        La integración de la Realidad Aumentada dentro del sitio es controlada empleando el framework de código abierto llamada A-Frame a través del cual se usaron los componentes que esta herramienta contiene para la generación del entorno en el que se mostrará el modelo del planeta que sea elegido, todo usando la cámara de un dispositivo e.g celular/smartphone, tablet o laptop/PC.
+    </p><br>
+    <img class="imgInfo" src="Res/Blender.png" height="150" width="150">
+    <p class="inf">
+        Los modelados de los planetas fueron creados a partir del uso de la aplicación de Blender, en la cual se generó la figura o primitiva, en este caso una esfera sobre la cual se le aplicó una textura, dado el enfoque del proyecto se usaron las de los planetas del sistema solar. Exportando dichos modelos ya generado, usando de igual manera Blender a formato “.gtlf” el cual es necesario para mostrar este tipo de componentes en el framework de A-Frame.
+    </p><br><br><br>
 </body>
 <footer class="text-center">
 	<div class="container pt-1" id="footer-content">
