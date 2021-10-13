@@ -4,7 +4,7 @@ body {
   background-size: cover;
 }
 input {
-  border: 5px solid rgb(255, 3, 3);
+  border: 5px inset #7c8494;
   transition: transform 0.2s;
 }
 input:hover {
@@ -90,8 +90,137 @@ img.sticky{
   margin-left: auto;
   margin-right: auto;
 }
+
+@font-face {
+  font-family: 'chop';
+  src:  url('Res/Chopsic-K6Dp.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'astro';
+  src:  url('Res/AstroSpace-0Wl3o.otf') format('truetype'),
+        url('Res/AstroSpace-eZ2Bg.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'mando';
+  src:  url('Res/Mandalore-K77lD.otf') format('truetype');
+}
+
 .headone{
-  text-shadow: 2px 1px 10px blue;
-  color: gray; 
+  font-family: chop;
+  text-shadow: 2px 1px 10px rgb(240, 236, 6);
+  color: white; 
   text-align: center;
+} 
+
+.twone{
+  font-family: astro;
+  color: grey; 
+  text-align: center;
+  font-size: 140%;
+}
+
+.link{
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+.link:focus, .link:hover {
+  border-bottom: 1px solid;
+}
+
+/* Animación */
+#circle-orbit-container {
+  margin: auto;
+  position: relative;
+  top: 25px;
+  left: 25px;
+  height: 300px;
+  width: 300px;
+}
+
+#center{
+  position: absolute;
+  top: 130px;
+  right: 123px;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background-color: #e70614;
+}
+
+#inner-orbit {
+  position: absolute;
+  top: 75px;
+  left: 75px;
+  width: 150px;
+  height: 150px;
+  border: 2px #4A437F dashed;
+  border-radius: 100%;
+  -webkit-animation: spin-right 10s linear infinite;
+  animation: spin-right 10s linear infinite;
+}
+
+.inner-orbit-cirlces {
+  position: absolute;
+  top: 62px;
+  left: -6px;
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+  background-color: #fdca40;
+}
+
+#middle-orbit {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  width: 225px;
+  height: 225px;
+  border: 2px #4A437F dashed;
+  border-radius: 100%;
+  -webkit-animation: spin-right 15s linear infinite;
+  animation: spin-right 15s linear infinite;
+}
+
+.middle-orbit-cirlces {
+  position: absolute;
+  top: 25px;
+  left: 17px;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background-color: #3772FF;
+}
+
+#outer-orbit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 294px;
+  height: 294px;
+  border: 2px #4A437F dashed;
+  border-radius: 100%;
+  -webkit-animation: spin-right 20s linear infinite;
+  animation: spin-right 20s linear infinite;
+}
+
+.outer-orbit-cirlces {
+  position: absolute;
+  top: -17px;
+  left: 125px;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  background-color: #e27611;
+}
+
+@keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }

@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Solarys Web - Información</title>
+	<title>Solaris Web - Información</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
@@ -25,11 +25,11 @@
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="Informacion.html">Información</a>
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="Informacion.html">Información<span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -37,7 +37,6 @@
 						Planetas
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="index.html">Todos</a>
 						<a class="dropdown-item" href="Sol.html">Sol</a>
 						<a class="dropdown-item" href="Mercurio.html">Mercurio</a>
 						<a class="dropdown-item" href="Venus.html">Venus</a>
@@ -53,21 +52,44 @@
 		</div>
 	</nav>
 	<p>
-        <h1 class="headone">Project Solaris</h1>
-	<h2 style="color: teal; text-align: center;">Bienvenido a un universo de posibilidades</h2>
+	<h1 class="headone">Project Solaris</h1>
+	<h2 class="twone">Bienvenido a un universo de posibilidades</h2>
 	</p><br>
+	<div id="circle-orbit-container">
+		<div id="center"></div>
+		<div id="inner-orbit">
+			<div class="inner-orbit-cirlces"></div>
+		</div>
+		<div id="middle-orbit">
+			<div class="middle-orbit-cirlces"></div>
+		</div>
+		<div id="outer-orbit">
+			<div class="outer-orbit-cirlces"></div>
+		</div>
+	</div><br><br><br>
 	<p class="inf">
-        Bienvenido a Solaris Web, este sitio fue creado con el objetivo de mostrar una forma de aprendizaje de la Astronomía, haciendo uso de la realidad aumentada para mostrar las maravillas de nuestro sistema solar como pocas veces se ha explorado, todo esto a través de un simple dispositivo móvil.
-    </p><br>
-    <h3 class="sub">¿Cómo funciona?</h3><br>
-    <img class="imgInfo" src="Res/aframe-logo.png" height="150" width="150">
-    <p class="inf">
-        La integración de la Realidad Aumentada dentro del sitio es controlada empleando el framework de código abierto llamada A-Frame a través del cual se usaron los componentes que esta herramienta contiene para la generación del entorno en el que se mostrará el modelo del planeta que sea elegido, todo usando la cámara de un dispositivo e.g celular/smartphone, tablet o laptop/PC.
-    </p><br>
-    <img class="imgInfo" src="Res/Blender.png" height="150" width="150">
-    <p class="inf">
-        Los modelados de los planetas fueron creados a partir del uso de la aplicación de Blender, en la cual se generó la figura o primitiva, en este caso una esfera sobre la cual se le aplicó una textura, dado el enfoque del proyecto se usaron las de los planetas del sistema solar. Exportando dichos modelos ya generado, usando de igual manera Blender a formato “.gtlf” el cual es necesario para mostrar este tipo de componentes en el framework de A-Frame.
-    </p><br><br><br>
+		Bienvenido a Solaris Web, este sitio fue creado con el objetivo de mostrar una forma de aprendizaje de la
+		Astronomía, haciendo uso de la realidad aumentada para mostrar las maravillas de nuestro sistema solar como
+		pocas veces se ha explorado, todo esto a través de un simple dispositivo móvil.
+	</p><br>
+	<h3 class="sub">¿Cómo funciona?</h3><br>
+	<img class="imgInfo" src="Res/aframe-logo.png" height="150" width="150">
+	<p class="inf">
+		La integración de la Realidad Aumentada dentro del sitio es controlada empleando el framework de código abierto
+		llamada A-Frame a través del cual se usaron los componentes que esta herramienta contiene para la generación del
+		entorno en el que se mostrará el modelo del planeta que sea elegido, todo usando la cámara de un dispositivo e.g
+		celular/smartphone, tablet o laptop/PC.
+		<br><a class="link" href="https://aframe.io/">Conoce más</a>
+	</p><br>
+	<img class="imgInfo" src="Res/Blender.png" height="150" width="150">
+	<p class="inf">
+		Los modelados de los planetas fueron creados a partir del uso de la aplicación de Blender, en la cual se generó
+		la figura o primitiva, en este caso una esfera sobre la cual se le aplicó una textura, dado el enfoque del
+		proyecto se usaron las de los planetas del sistema solar. Exportando dichos modelos ya generado, usando de igual
+		manera Blender a formato “.gtlf” el cual es necesario para mostrar este tipo de componentes en el framework de
+		A-Frame.
+		<br><a class="link" href="https://www.blender.org/">Conoce más</a>
+	</p><br><br><br>
 </body>
 <footer class="text-center">
 	<div class="container pt-1" id="footer-content">
@@ -93,10 +115,11 @@
 			<a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/DuckyBoy343/ARSolaris"
 				role="button" data-mdb-ripple-color="dark"><i class="bi bi-github"></i></a>
 			</section>
-		<p style="font-size: 10px; padding-left: 80px; padding-right: 80px;">
-			Designed and built with all the love in the world by the Bootstrap team with the help of our contributors.
-			Currently v4.3.1. Code licensed MIT, docs CC BY 3.0.
-		</p>
+			<p style="font-size: 10px; padding-left: 80px; padding-right: 80px;">
+				Designed and built with all the love in the world by the Bootstrap team with the help of our
+				contributors.
+				Currently v4.3.1. Code licensed MIT, docs CC BY 3.0.
+			</p>
 	</div>
 </footer>
 
