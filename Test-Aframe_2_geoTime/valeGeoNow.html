@@ -37,7 +37,7 @@
                 
             
                
-                <a-entity gltf-model="#jupiter" rotation="-45 -90 90" scale="0.1 0.1 0.1" animation="property: rotation; to: 315 -90 90; easing:linear; loop: true; dur: 10000"></a-entity> <!-- //Modelo glTF -->
+                <a-entity gltf-model="#jupiter" rotation="45 -90 90" scale="1 1 1" animation="property: rotation; to: 315 -90 90; easing:linear; loop: true; dur: 10000"></a-entity> <!-- //Modelo glTF -->
                 <h1></h1>
                 
                 <a-entity
@@ -51,12 +51,6 @@
                 rotation="0 0 0"
                 position="0 1 -1"></a-entity> 
                 
-
-      <a-text id="demo"
-        value="This content will always face you."
-        look-at="[gps-camera]"
-        scale="1 1 1"
-      ></a-text>
       <a-camera gps-camera rotation-reader> </a-camera>
     </a-scene>
   </body>
