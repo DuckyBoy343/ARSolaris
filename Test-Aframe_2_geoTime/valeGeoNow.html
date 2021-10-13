@@ -33,18 +33,22 @@
       arjs="sourceType: webcam; debugUIEnabled: false;"
       onload="getLocation()">
 
-        <a-entity light="type: point; intensity: 10.00; distance: 50; decay: 1"
-          position="0 0 -1"></a-entity>
+                <a-entity light="type: point; intensity: 10.00; distance: 50; decay: 1"
+          position="0 15 -10"></a-entity>
+          position="0 0 -10"></a-entity>
                 <a-entity gltf-model="#jupiter" rotation="-45 -90 90" scale="1 1 1" animation="property: rotation; to: 315 -90 90; easing:linear; loop: true; dur: 10000"></a-entity> <!-- //Modelo glTF -->
                 <h1></h1>
                 
                 <a-entity
+                scale="1 1 1"
+                
                 geometry="primitive: plane; width: auto; height: auto"
                 material="color: black"
                 text="value: Júpiter es el quinto planeta del sistema solar, recibe su nombre del dios romano Júpiter. 
                 Su radio es de 71 492 kilómetros. 
                 La distancia entre este planeta y el sol es de 588 millones de kilómetros y es 318 veces mayor a la tierra"
                 rotation="0 0 0"
+                position="0 1 -1"></a-entity> 
                 position="0 0 0"></a-entity> 
 
       <!-- <a-text id="demo"
