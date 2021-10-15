@@ -27,7 +27,7 @@
         }
     </script>
               <a-assets>
-                <a-asset-item id="jupiter" src="Jupiter.gltf"></a-asset-item>
+                <a-asset-item id="sol" src="sol.gltf"></a-asset-item>
               </a-assets>
     <a-scene
       vr-mode-ui="enabled: false"
@@ -36,10 +36,10 @@
       onload="getLocation()">
                 
                 <a-entity light="type: point; intensity: 10.00; distance: 50; decay: 1" position="0 -15 -10"></a-entity>
-                <a-entity gltf-model="#jupiter" rotation="0 0 0" position="-2 0 0" scale="0.4 0.4 0.4" animation="property: rotation; to: 0 360 0; easing:linear; loop: true; dur: 10000"></a-entity> <!-- //Modelo glTF -->
-                <!-- <h1></h1>
+                <a-entity gltf-model="#sol" rotation="0 0 0" position="-2 0 0" scale="0.4 0.4 0.4" animation="property: rotation; to: 0 360 0; easing:linear; loop: true; dur: 10000"></a-entity> <!-- //Modelo glTF -->
                 
-                <a-entity
+                
+                <!-- <a-entity
                 scale="1.5 1.5 1.5"
                 geometry="primitive: plane; width: auto; height: auto"
                 material="color: black"
